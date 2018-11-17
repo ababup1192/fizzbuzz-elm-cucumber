@@ -21,7 +21,7 @@ public class BasicStepDefs {
     public void FizzBuzzアプリが立ち上げ() throws Throwable {
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
         driver = new ChromeDriver();
-        driver.get("https://ababup1192.github.io/fizzbuzz-elm/");
+        driver.get("https://ababup1192.github.io/fizzbuzz-elm-cucumber/");
     }
 
 
